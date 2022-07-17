@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+ 
 }
 
 .App-logo {
@@ -35,4 +36,51 @@
   to {
     transform: rotate(360deg);
   }
+}
+/* .full{
+  
+  background-image: url('https://i.gifer.com/6wY.gif');
+  /* background-image: url('https://c.tenor.com/8skIDQjleKAAAAAC/blue.gif'); */
+  /* background-position: center; */
+  /* background-size: cover; */
+  
+/* } */
+.full {
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr;
+  /* background-image: url('https://i.gifer.com/6wY.gif'); */
+ 
+  /* background-size: cover; */
+}
+.griding-one{
+  background-image: url('https://i.pinimg.com/originals/14/05/2f/14052f27b0b4d3585d38f7d597d27132.gif');
+  background-position: center;
+}
+.griding-two{
+  /* background-image: url('https://giffiles.alphacoders.com/203/20389.gif'); */
+  background-image: url('https://c.tenor.com/o23PLsTxPLoAAAAC/wallpaper.gif');
+  /* background-size:cover; */
+  color: rgb(218, 187, 187);
+  padding:10px
+}
+.griding-two button{
+  margin-left: 35%;
+}
+.griding-two h1{
+  font-weight: 700;
+}
+.griding-two h3{
+  font-weight: 700;
+}
+.griding-two p{
+  font-weight: 600;
+}
+.griding-last{
+  background-image: url('https://c.tenor.com/o23PLsTxPLoAAAAC/wallpaper.gif');
+  /* background-repeat: no-repeat; */
+  color:rgb(232, 222, 222);
+  padding: 10px;
+}
+.griding-last h3,p{
+ font-weight: 700;
 }
